@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="relative">
+        <main className="relative h-svh overflow-hidden">
           {children}
         </main>
       </body>
