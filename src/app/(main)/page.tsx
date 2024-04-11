@@ -1,9 +1,5 @@
-import Image from "next/image";
+import HomeTemplate from "@/modules/home/templates";
 
 export default function Home() {
-  return (
-    <h1>
-      Hello World!
-    </h1>
-  );
+  return <HomeTemplate />
 }

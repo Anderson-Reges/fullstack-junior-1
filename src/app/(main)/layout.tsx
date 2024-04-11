@@ -1,3 +1,4 @@
+import NavTemplate from "@/modules/layout/template/nav";
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -12,6 +13,7 @@ export default function PageLayout({
 }) {
   return (
     <>
+      <NavTemplate />
       {children}
     </>
   )
