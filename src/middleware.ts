@@ -11,7 +11,7 @@ export default function middleware(
   const secret = headers.get('secret');
   if (!secret || secret !== (process.env.SECRET || "naranja-labs")) {
     return NextResponse.json(
-      { error: 'Acesso não autorizado' },
+      { error: 'Unauthorized access' },
       { status: 401 }
     )
 
