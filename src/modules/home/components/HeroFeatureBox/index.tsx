@@ -24,10 +24,10 @@ export const HeroFeatureBox = () => {
   return (
     <>
       <div className="flex flex-col mb-8">
-        <p className="font-bold text-white text-6xl w-[37.5rem] mb-6">
+        <p className="font-bold text-white text-[5rem] w-[48.5rem] mb-6 leading-[5.313rem]">
           Build your best community starting from here.
         </p>
-        <p className="w-[26.563rem] text-white opacity-50 font-[Poppins]">
+        <p className="w-[38.563rem] text-white opacity-50 font-[Poppins] text-[1.5rem] leading-[1.875rem]">
           Meet and communicate with the best people to run projects, events or other activities in a more effective and fun way
         </p>
       </div>
@@ -40,7 +40,7 @@ export const HeroFeatureBox = () => {
           <ArrowRight />
         </div>
       </div>
-      <div className="flex mt-[9rem] gap-12">
+      <div className="flex mt-[2.93rem] gap-12 justify-between">
         {
           IconMap.map(({ icon, description }) => (
             <span className="flex">
@@ -52,7 +52,7 @@ export const HeroFeatureBox = () => {
                 </div>
               </div>
 
-              <p className="relative z-50 w-[6.25rem] text-white ml-5 font-[Poppins] font-semibold">{description}</p>
+              <p className="relative z-50 right-0 w-[6.25rem] pl-7 text-white font-[Poppins] font-semibold">{description}</p>
             </span>
           ))
         }
